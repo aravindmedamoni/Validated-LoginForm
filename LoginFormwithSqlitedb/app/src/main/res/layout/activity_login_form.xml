@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="6dp"
+    tools:context=".LoginFormActivity">
+
+    <TextView
+        android:id="@+id/registerbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignEnd="@+id/lgnbtn"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:onClick="registerhere"
+        android:text="New?Register Here"
+        android:textAllCaps="false"
+        android:textColor="#ff5340"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_alignRight="@+id/lgnbtn" />
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:id="@+id/lgnmail"
+        android:hint="E-mail"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:inputType="textEmailAddress"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_below="@id/lgnmail"
+        android:id="@+id/lgnpswd"
+        android:hint="Password"
+        android:textSize="20dp"
+        android:fontFamily="serif"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:singleLine="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/lgnbtn"
+        android:onClick="loginhere"
+        android:text="Login"
+        android:textSize="25dp"
+        android:textAllCaps="false"
+        android:textColor="#ff5340"
+        android:layout_width="340dp"
+        android:layout_height="55dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="246dp"
+        android:gravity="center" />
+
+
+
+
+</RelativeLayout>

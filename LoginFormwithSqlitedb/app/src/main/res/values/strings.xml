@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginFormwithSqlitedb</string>
+    <string name="Username_error">Please Enter Your Name</string>
+    <string name="Surname_error">Please Enter Your SurName</string>
+    <string name="Email_error">Please Enter Valid Mail</string>
+    <string name="Mbnum_error">Please Enter Mobile Number</string>
+    <string name="Password_error">Please Your Password Must Contain Atleast One Capital Letter and Small Letter and Number and Any Special Symobls</string>
+    <string name="ConfirmPassword_error">Password Not matched</string>
+
+</resources>
